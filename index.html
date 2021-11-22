@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Ruta 7</title>
+	<meta name="description" content="Proyecto de los alumnos de informática 5°B">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="shortcut icon" href="./img/EscudoPngReal.png">
+	
+</head>
+<body>
+<div class="conteiner">
+	<div>
+		<nav class="azul nav">
+
+			<div>
+			<label class="logo">RUTA 7</label>
+
+			</div>
+
+			<div>
+				<img class="nav-img" src="./img/EscudoPngReal.png" alt="">
+			</div>
+
+			<div>
+				<ul class="nav-ul">
+					<div>
+					<li><a class="active" href="#intro">Introducción</a></li>
+					<li><a class="active" href="#org">Organización</a></li>
+					<li><a class="active" href="#desa">Desarrollo</a></li>
+					<li><a class="active" href="#cr">Créditos</a></li>
+					<li><a class="active" href="#bo">Bonus</a></li>
+					</div>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div>
+		<section id="principal" class="borde">
+			
+			<div>
+				<section class="secsion">
+					<div class="azul borde content">
+					<article>
+						<p id="intro"> <h2 class="h2"><u><i ></i>Introducción</i></u></h2> </p> 
+						<br>
+						
+						<p> Durante el ciclo lectivo 2021, en la asignatura de Práctica Profesionalizante, el profesor Jorge Horeyco propuso que se realizara una maqueta domótica empleando los conocimientos que se aprendieron durante el transcurso del año en las diversas materias del taller de informática de 5to año de la <a href="http://epetn7jardinamerica.edu.ar/institucional/">EPET N°7.</a> <br/> <p> Los alumnos formaron grupos de entre 6 y 7 personas para la maquetación, programación y divulgación del proyecto. Fue así que se formó el grupo integrado por los alumnos Baez, Ivan; Benitez, Martin; Kelm, Nahuel; Larroza, Lautaro; Mittelstedt, Gabriel; Morales, Juan P.; Vergara, Joaquin.</p> <br> 
+
+						<img id="rr" src="./img/rr.jpeg" alt="">
+						<br>
+						Este grupo decidió basar su proyecto en una simulación de la carretera misionera conocida como "Ruta 7", la cual tendría como parte domótica un puente levadizo, una barrera de peaje y un semáforo. A continuación veremos cómo se planteo la realización del proyecto.</p>
+						 
+						 
+					</article>
+					</div>
+					<div class="azul borde content">
+					<article id="org">
+						<u ><i> <p> <h2>Organización</h2>  </p> </i></u>
+						<br>
+						<p>
+							El grupo de alumnos de 5° "B" decidió reliazar una organización de las tareas con el  fin de lograr que todos los participantes del proyecto puedan relizar y aportar sus ideas y pensamientos. Así es como se dividieron en cuatro grupos, los cuales son: 
+							<ul>
+								<li>Programación de Arduino: Larroza, Lautaro y Mittelstedt, Gabriel</li>
+								<li>Programación de aplicación de celular: Mittelstedt, Gabriel y Larroza, Lautaro </li>
+								<li>Programación de página web: Morales, Juan Pablo y Vergara, Joaquín</li>
+								<li>Armado y preparación de la maqueta: Baez, Iván; Benitez, Martín y Kelm, Nahuel.</li>
+							</ul>
+						</p>
+						 
+						 
+						 
+					</article>
+				</div>
+				<div class="azul borde content">
+					<article>
+						<u><i id="desa"> <h2>Desarrollo</h2> </i></u>
+						<br>
+						<p>Lo que se presentará en la maqueta es la simulación de un circuito por el cual pasaría un vehículo utilitario con el fin de recrear una ruta que consta de un peaje, que tiene un semáforo y barrera, dicho peaje da paso a un puente levadizo.</p><br>
+
+						<p>El circuito tiene un sistema de encendido y apagado conectado a un dispositivo móvil por medio de conectividad Bluetooth, el cual es controlado por un usuario. Paralelamente al armado de la maqueta los alumnos crearon una aplicación con la finalidad de controlar los funcionamientos de la maqueta. Cuando el operador se conecta a la plaqueta de Arduino (una de las partes fundamentales del prototipo), en el dispositivo móvil utilizado aparece el estado de conexión entre el dispositivo y la maqueta; en la pantalla además aparece el comando de “inicio” y “detención o apagado” del mecanismo.</p> <br>
+
+						<p>El circuito de Arduino del proyecto "Ruta 7" funciona a base de 2 servo motores que simulan una barrera de peaje y un puente levadizo, en conjunto con un semaforo de 3 leds (rojo, amarillo y verde). Estos componentes son conectados al "protoboard" y a la plaqueta "Arduino Uno". Todo este circuito es alimentado por la tensión que proporciona la computadora al ser conectado por cable USB. El circuito tiene un negativo llamado GND y el positivo es de 5V que sale desde la Arduino Uno. Todo esto es posible gracias a que con los cables de conexión Arduino podemos conectar los servo motores y los leds al circuito y a la Arduino Uno.</p><br>
+
+						<p>Para la programación web de la página del proyecto, se utilizó el editor de código fuente "Visual Studio Code" usando el lenguaje de marcado "HTML" y el lenguaje de diseño gráfico "CSS".</p> <br>
+
+						<p>El montaje se da de la siguiente manera: sobre el Telgopor se dibuja una ruta en la cual se encuentra el peaje construido con cartón y pintado, como todos los peajes, el de la maqueta cuenta con una barrera hecha de palitos de picolé. El semáforo consta de dos focos leds (uno rojo y otro verde); el puente también está hecho de palitos de picolé y cartón. Los costados están pintados de color verde simulando el borde de la ruta y la naturaleza de Misiones.</p>
+						 
+						 
+					</article>
+					</div>
+
+					<div class="azul borde content">
+
+					<article>
+						<u><i id="cr"> <h2>Créditos</h2> </i></u>
+						<br>
+						<p>
+							Se agradece al profesor Horeyco Jorge que nos ayudó durante el proceso de creación de la maqueta, enseñando a los alumnos a poder realizar proyectos como este gracias a los conocimientos básicos de programación de paginas web y programación de objetos con Arduino.
+							Y a todo el resto del equipo de profesores del area de informática de la E.P.E.T. N°7 se les agradece por sus aportes y apoyo a los alumnos que han realizado esta tarea.
+						</p>
+					</article>
+					</div>
+					<div class="azul borde content">
+					<article>
+						<u><i id="bo"> <h2>Bonus</h2>  </i></u>
+						<br>
+						<video autoplay loop muted src="./img/WhatsApp Video 2021-11-09 at 22.22.21.mp4"></video>						
+						<video autoplay loop muted src="./img/proto.mp4"></video>
+						<video autoplay loop muted src="./img/maqueta.mp4"></video>
+						<video autoplay loop muted src="./img/maqueta1.mp4"></video>
+						 
+					</article>
+				</div>
+				</section>
+			</div>
+
+			<div >
+			<aside class="azul borde">	
+				<br>
+			
+				<p>Los materiales utilizados para la realización de la maqueta son: <br> <br>
+					Parte técnica/informática: <br> <br> protoboard, plaqueta de Arduino, cables de conexión, focos leds, servomotor, resistencias y computadora portátil. <br> <br>
+					Parte estructural: <br> <br> plancha de Telgopor, palitos de picolé, pegamento, cartón, gomaeva, pinturas.</p> 
+					<br>
+					
+					<img src="./img/semaforo.jpeg" width="240px" height="300px" alt="">
+					<br>
+					<img src="./img/placa2.jpeg" width="240px" height="300px" alt="">
+					<br>
+					<img src="./img/protoboard.jpeg" width="240px" height="300px" alt="">
+					<br>
+					<img src="./img/maqueta.jpeg" width="240px" height="200px" alt="">
+					<br>
+					<img src="./img/mitt.jpeg" width="240px" height="310px" alt="">
+					<br>
+					<img src="./img/compu.jpeg" width="240px" height="330px" alt="">				
+						
+			</aside>		
+			</div>
+
+		</section>
+
+	</div>
+	<div class="footer">
+
+<footer>
+			
+			<div class="footer-logo">
+				<img src="./img/EscudoPngReal.png" width="200px" height="120px" alt="">
+				<p>Escuela de Educación Técnica N° 7</p>
+			</div>
+
+			<div class="redes">
+				<a href="https://www.instagram.com/lautaro_larroza/"><img width="40px" height="40px" src="./img/pinpng.com-instagram-png-transparent-background-6932588.png" alt=""> <p>Lautaro Larroza</p> </a> 
+				<a href="https://www.instagram.com/_gabrielmitt_/"><img width="40px" height="40px" src="./img/pinpng.com-instagram-png-transparent-background-6932588.png" alt=""><p>Gabriel Mittelstedt</p> </a> 
+				<a href="https://www.instagram.com/jpmoralxs/"><img width="40px" height="40px" src="./img/pinpng.com-instagram-png-transparent-background-6932588.png" alt=""><p>Juan Pablo Morales</p> </a>
+				<a href="https://www.instagram.com/_martinbenitez_/"><img width="40px" height="40px" src="./img/pinpng.com-instagram-png-transparent-background-6932588.png" alt=""><p>Martín Benitez</p> </a>
+				<a href="https://www.instagram.com/joaquiin_vergara/"><img width="40px" height="40px" src="./img/pinpng.com-instagram-png-transparent-background-6932588.png" alt=""><p>Joaquín Vergara</p> </a>
+				<a href="https://www.instagram.com/_nahuel_kelm_/"><img width="40px" height="40px" src="./img/pinpng.com-instagram-png-transparent-background-6932588.png" alt=""><p>Nahuel Kelm</p> </a>
+			</div>
+			
+		</footer>
+	</div> 
+</div>						
+</body>
+</html>
